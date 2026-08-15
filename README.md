@@ -53,7 +53,7 @@ Created an SQS queue named `guardduty-findings-clean` to receive GuardDuty findi
 
 The queue was verified to receive GuardDuty Finding JSON messages.
 
-![SQS GuardDuty Message](images/03-sqs-guardduty-message.png)
+![SQS GuardDuty Messages](images/03-sqs-guardduty-messages.png)
 
 ### 4. Splunk Enterprise
 
@@ -69,7 +69,7 @@ Created a Splunk SOC dashboard to monitor:
 - Findings by severity
 - Finding types
 
-![Splunk SOC Dashboard](images/04-splunk-soc-dashboard.png)
+![Splunk SOC Dashboard](images/04-splunk-soc-dashboard.jpeg)
 
 ## Validation
 
