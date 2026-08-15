@@ -6,14 +6,14 @@ This project demonstrates a cloud security monitoring pipeline that sends Amazon
 
 ## Architecture
 
-Amazon GuardDuty
-↓
-Amazon EventBridge
-↓
-Amazon SQS
-↓
-Splunk Enterprise
-↓
+Amazon GuardDuty  
+↓  
+Amazon EventBridge  
+↓  
+Amazon SQS  
+↓  
+Splunk Enterprise  
+↓  
 SOC Dashboard
 
 ## Technologies Used
@@ -43,8 +43,8 @@ Event pattern:
   "source": ["aws.guardduty"],
   "detail-type": ["GuardDuty Finding"]
 }
+```
 
-```text
 ![EventBridge Rule](images/02-eventbridge-rule.png)
 
 ### 3. Amazon SQS
